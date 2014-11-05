@@ -3,9 +3,7 @@ angular-nomnoml
 
 Hello, this is angular-nomnoml, an angular module and directive for nomnoml.
 
-
 ```
-#!html
 <canvas nomnoml nomnoml-source="
 	[<frame>Decorator pattern|
 		[<abstract>Component||+ operation()]
