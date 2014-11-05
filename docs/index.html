@@ -1,0 +1,37 @@
+<html ng-app="docs">
+<head>
+    <title>Docs</title>
+    <meta name="description" content="" />	
+	<meta name="viewport" content="width=device-width, user-scalable=yes">
+</head>
+<body>
+
+	<canvas nomnoml nomnoml-source="
+	[<frame>Decorator pattern|
+		[<abstract>Component||+ operation()]
+		[Client] depends --> [Component]
+		[Decorator|- next: Component]
+		[Decorator] decorates -- [ConcreteComponent]
+		[Component] <:- [Decorator]
+		[Component] <:- [ConcreteComponent]
+	]"></canvas>
+
+	<script src="../bower_components/zeptojs/src/zepto.js"></script>
+	<script src="../bower_components/underscore/underscore.js"></script>
+	<script src="../bower_components/angular/angular.js"></script>
+
+	<script src="../libs/dagre.min.js"></script>
+	<script src="../libs/underscore.skanaar.js"></script>
+	<script src="../libs/skanaar.canvas.js"></script>
+	<script src="../libs/vector.js"></script>
+	<script src="../libs/nomnoml.jison.js"></script>
+	<script src="../libs/nomnoml.parser.js"></script>
+	<script src="../libs/nomnoml.layouter.js"></script>
+	<script src="../libs/nomnoml.renderer.js"></script>
+
+	<script src="../dist/angular-nomnoml.min.js"></script>
+	<script>
+	angular.module('docs', ['ngNomnoml']);
+	</script>
+</body>
+</html>

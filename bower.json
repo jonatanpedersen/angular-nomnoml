@@ -1,0 +1,11 @@
+{
+  "name": "angular-nomnoml",
+  "version": "0.1.0",
+  "main": "dist/angular-nomnoml.min.js",
+  "description": "Angular module and directive for nomnoml",
+  "dependencies": {
+    "zeptojs": "~1.1.4",
+    "underscore": "~1.7.0",
+    "angular": "~1.3.1"
+  }
+}
