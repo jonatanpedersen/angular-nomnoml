@@ -3,8 +3,10 @@ angular-nomnoml
 
 Hello, this is angular-nomnoml, an angular module and directive for nomnoml.
 
-<pre>
-	<canvas nomnoml nomnoml-source="
+
+```
+#!html
+<canvas nomnoml nomnoml-source="
 	[<frame>Decorator pattern|
 		[<abstract>Component||+ operation()]
 		[Client] depends --> [Component]
@@ -13,7 +15,7 @@ Hello, this is angular-nomnoml, an angular module and directive for nomnoml.
 		[Component] <:- [Decorator]
 		[Component] <:- [ConcreteComponent]
 	]"></canvas>
-</pre>
+```
 
 Created by <a href="http://www.jonatanpedersen.com">Jonatan Pedersen</a>.</p>
 
