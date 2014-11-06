@@ -1,6 +1,6 @@
 angular-nomnoml
 =======
-Hello, this is angular-nomnoml, an angular module and directive for nomnoml, the brilliant tool for drawing UML diagrams by Daniel Kallin.
+Hello, this is angular-nomnoml, an angular module and directive for nomnoml, the awesome tool for drawing UML diagrams by Daniel Kallin.
 
 ## Install
 
